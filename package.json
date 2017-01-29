@@ -1,8 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>URL</key>
-	<string>https://e.mail.ru/attachment/14857021720000000409/0;1#e9d4bba9d35945ebed75dd5e289b4c6e</string>
-</dict>
-</plist>
+{
+  "name": "four-number",
+  "version": "1.0.0",
+  "description": "Server App for game Four-number",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Kozubov Ruslan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "~4.9.8"
+  }
+}
